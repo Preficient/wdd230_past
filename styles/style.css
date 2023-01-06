@@ -1,0 +1,22 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+header{
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: 1fr 1fr;
+    padding:50px
+}
+
+header img{
+    grid-column: 1/2;
+    width: 300px;
+    
+}
+
+header h1{
+    grid-column: 2/3;
+    align-self: center;
+}
