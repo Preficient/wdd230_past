@@ -1,5 +1,20 @@
+// insert the name using querySelector.
 const h1 = document.querySelector('h1');
-const copyright = document.querySelector('#copyright') ;
-let quantity = document.querySelector('#q').value;
-h1.textContent = 'Alexandra Fernandez de Ruiz' ;
-copyright.textContent = `© ${new Date().getFullYear()}`;
+h1.textContent = 'Alexandra Fernandez de Ruiz';
+// Add the year in the HTML document.
+const copyright = document.querySelector('#copyright').innerHTML += new Date().getFullYear();
+// Input element.
+// let quantity = document.querySelector('#q').value;
+// last modified
+let lastModi = new Date(document.lastModified);
+const day = lastModi.getDate();
+const month = lastModi.getMonth();
+const year = lastModi.getFullYear();
+const hour = lastModi.getHours();
+const min = lastModi.getMinutes();
+const sec = lastModi.getSeconds();
+console.log(hour);
+const pickFooter = document.querySelector('#lastmodified').innerHTML += `Last Updated: ${month + 1}/${day}/${year} ${hour}:${min}:${sec}`;
+
+
+
