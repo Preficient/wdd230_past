@@ -3,8 +3,6 @@ const h1 = document.querySelector('h1');
 h1.textContent = 'Alexandra Fernandez de Ruiz';
 // Add the year in the HTML document.
 const copyright = document.querySelector('#copyright').innerHTML += new Date().getFullYear();
-// Input element.
-// let quantity = document.querySelector('#q').value;
 // last modified
 let lastModi = new Date(document.lastModified);
 const day = lastModi.getDate();
@@ -13,8 +11,6 @@ const year = lastModi.getFullYear();
 const hour = lastModi.getHours();
 const min = lastModi.getMinutes();
 const sec = lastModi.getSeconds();
-console.log(hour);
 const pickFooter = document.querySelector('#lastmodified').innerHTML += `Last Updated: ${month + 1}/${day}/${year} ${hour}:${min}:${sec}`;
-
 
 
