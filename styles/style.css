@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Nunito:ital,wght@1,300&family=Shadows+Into+Light&display=swap');
+
 #content{
     max-width: 70%;
     margin: 0 auto;
@@ -13,15 +15,36 @@ header{
 header img{
     grid-column: 1/2;
     width: 300px;
+    border-radius: 50%;
+    border: solid 5px black
     
 }
 
 header h1{
     grid-column: 2/3;
     align-self: center;
+    text-align: center;
+    font-family: "Moon Dance", cursive;
+    font-size: 4em;
+    
 }
-
+h2{
+    font-family: "Moon Dance", cursive;
+    font-size: 2.5em;
+}
+li{
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 1.5em;
+}
 footer {
     background-color: bisque;
     text-align: center;
+    font-family: "Nunito", "Helvetica Neue", Helvetica, sans-serif;
+
 }
+#lastmodified{
+    color: rgb(247, 13, 13) ;
+    font-weight: bold;
+}
+
+
