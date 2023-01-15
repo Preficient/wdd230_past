@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Nunito:ital,wght@1,300&family=Shadows+Into+Light&display=swap');
+
+html{
+    max-width: 100%;
+    min-height: 100%;
+    position: relative;
+    border: 2px solid black;
+}
+body{
+    
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 1.2em;
+    
+}
+
+header{
+    background-color: rgba(7, 7, 83, 0.856);
+    color: white;
+    font-family: "Moon Dance", cursive;
+
+}
+.title{
+    text-align: center;
+}
+
+#content-task2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.section{
+    display: grid;
+    grid-template-rows: 60px 100px 50px 1fr 1fr;
+    border: 2px solid  black;
+    border-radius: 23px;
+}
+.principle{
+    background-color: rgba(7, 7, 83, 0.856);
+    color: white;
+    margin-top: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.company-name{
+    border: 2px solid black;
+}
+
+.link-company{
+    border: 2px solid black;
+}
+.picture-company{
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    background-color: rgba(7, 7, 83, 0.856);
+    color: white;
+    text-align: center;
+    font-family: "Nunito", "Helvetica Neue", Helvetica, sans-serif;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+#lastmodified{
+    color: rgb(247, 13, 13) ;
+    font-weight: bold;
+}
