@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Nunito:ital,wght@1,300&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 #content{
     max-width: 70%;
@@ -7,7 +7,7 @@
 }
 header{
     display: grid;
-    background-color: bisque;
+    background-color: #ffb8ec;
     grid-template-columns: 1fr 1fr;
     padding:50px
 }
@@ -15,8 +15,8 @@ header{
 header img{
     grid-column: 1/2;
     width: 300px;
-    border-radius: 50%;
-    border: solid 5px black
+    border-radius: 25%;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2);
     
 }
 
@@ -24,26 +24,26 @@ header h1{
     grid-column: 2/3;
     align-self: center;
     text-align: center;
-    font-family: "Moon Dance", cursive;
-    font-size: 4em;
+    font-family: "Cinzel", sans-serif;
+    font-size: 3em;
     
 }
 h2{
-    font-family: "Moon Dance", cursive;
-    font-size: 2.5em;
+    font-family:  "Cinzel", sans-serif;
+    font-size: 2.25em;
 }
 li{
     font-family: "Shadows Into Light", sans-serif;
     font-size: 1.5em;
 }
 footer {
-    background-color: bisque;
+    background-color: #ffb8ec;
     text-align: center;
     font-family: "Nunito", "Helvetica Neue", Helvetica, sans-serif;
-
+    font-size: 1.25em;
 }
 #lastmodified{
-    color: rgb(247, 13, 13) ;
+    color: red ;
     font-weight: bold;
 }
 

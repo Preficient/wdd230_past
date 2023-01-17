@@ -1,6 +1,6 @@
 // insert the name using querySelector.
 const h1 = document.querySelector('h1');
-h1.textContent = 'Alexandra Fernandez de Ruiz';
+h1.textContent = 'Alexandra Ruiz Fernandez';
 // Add the year in the HTML document.
 const copyright = document.querySelector('#copyright').innerHTML += new Date().getFullYear();
 // last modified
