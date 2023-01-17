@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Nunito:ital,wght@1,300&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 
 html{
     max-width: 100%;
@@ -8,15 +8,14 @@ html{
 }
 body{
     
-    font-family: "Shadows Into Light", sans-serif;
+    font-family: sans-serif;
     font-size: 1.2em;
     
 }
 
 header{
-    background-color: rgba(7, 7, 83, 0.856);
-    color: white;
-    font-family: "Moon Dance", cursive;
+    background-color:#ffb8ec;
+    font-family: "Cinzel", sans-serif;
 
 }
 .title{
@@ -39,9 +38,8 @@ header{
     border-radius: 23px;
 }
 .principle{
-    background-color: rgba(7, 7, 83, 0.856);
-    color: white;
-    margin-top: 0;
+    background-color:#ffb8ec;
+    margin: 0;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 
@@ -59,15 +57,40 @@ header{
 }
 
 footer {
-    background-color: rgba(7, 7, 83, 0.856);
-    color: white;
+    background-color:#ffb8ec;
     text-align: center;
-    font-family: "Nunito", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Cinzel", sans-serif;
     position:absolute;
     bottom: 0;
     width: 100%;
+ 
 }
 #lastmodified{
     color: rgb(247, 13, 13) ;
     font-weight: bold;
 }
+
+
+@media (max-width: 480px) {
+    #content-task2{
+        display: block;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+ }
+
+ @media (min-width: 480px) and (max-width: 750px){
+    #content-task2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    #alignment{
+        grid-column: 1/3;
+    }
+ }
