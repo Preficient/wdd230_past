@@ -1,0 +1,31 @@
+@media only screen and (min-width: 37.5em) {
+	
+
+	header h1 {
+		font-size: 1.5rem;
+		text-align: center;
+	}
+
+	
+ 	nav ul {
+		display: flex;
+		grid-template-columns: repeat(3, 1fr); 
+	} 
+
+	nav a {
+		font-size: 1rem;
+		align-items: center;
+	}
+
+	nav a:hover {
+	background-color: #bbb;
+	color: #36454f; 
+		--d: 75%;
+	}
+	
+	footer p {
+		flex-direction: row;
+	}
+	
+	
+}
