@@ -27,5 +27,8 @@
 		flex-direction: row;
 	}
 	
+	.navigation button {
+		display: none;
+	}
 	
 }

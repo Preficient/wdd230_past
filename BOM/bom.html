@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="App that allows users to enter their favorite Book of Mormon chapters and store them in a list that automatically updates on the screen">
+    <meta name="author" content="Alexandra">
+    <title>Bom | App </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="styles/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <h1>📖 Book of Mormon - Top 10</h1>
+    <main>
+        <label for="favchap">Enter Book and Chapter: </label>
+        <input type="text" id="favchap" placeholder="Alma 5" value="Alma 5">
+        <button type="submit">Add Chapter</button>
+        <div class="content">
+            <ul id="list"></ul>
+        </div>
+        
+    </main>
+    <script src="scripts/app.js"></script>
+</body>

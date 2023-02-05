@@ -6,5 +6,21 @@
 	nav a {
 		font-size: 1.1rem;
 	}
+	.navigation button {
+		display: none;
+	}
+
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	
+
 
 }

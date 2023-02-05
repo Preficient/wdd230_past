@@ -29,6 +29,42 @@ nav button{
     color: #555;
 }
 
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: tomato;
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+
+.navigation a:hover, navigation a:active {
+	color: white;
+	background-color: black;
+}
+
+
+
+
 footer {
 	background-color: #399D41ff;
 	display: flex;
@@ -56,7 +92,7 @@ h2 {
 }
 
 nav {
-	background-color: #000000ff;
+	background-color: #399D41ff;
 	margin: 0 auto;
 	max-width: 780px;
 	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
@@ -73,8 +109,6 @@ nav ul li a {
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
-	background: linear-gradient(90deg, transparent, #000000ff, transparent) bottom /
-		var(--d, 0) 3px no-repeat;
 	transition: 0.5s;
 }
 
@@ -90,4 +124,18 @@ footer p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
+}
+
+.responsive li {
+	display: block;
+}
+
+
+.responsive #menu::before {
+	content: "X";
 }
